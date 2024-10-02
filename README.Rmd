@@ -1,0 +1,36 @@
+---
+output:
+  md_document:
+    variant: gfm
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-"
+)
+```
+
+# GmooGcode
+
+This package contains the R code used to produce the graphics in the book "Getting (more out of) Graphics".  There is a file for each chapter with graphics.  The code for the Chapters 2 to 26 (in Part I of the book) is self-contained, all the code needed is in the same chapter, although individual code chunks often depend on earlier code in the same chapter.  Most of the code in the Chapters 27 to 33 (in Part II of the book) depends on code in chapters in Part I.  Backward references are provided in the chunk headers.
+
+## Coding language
+The graphics have almost all been produced using R and that part of R known as the tidyverse.  Many of the graphics could be drawn just as well with other software, perhaps better.  In some cases quite different graphics might be drawn that could offer better displays.
+
+## Named objects
+R objects that are used later on in the book, particularly graphics and subsets of data, have been given names to avoid repeating code.
+
+## Sizes of graphics
+The graphics drawn in the book have sometimes been specially sized to fit in with the layout and text.  So graphics drawn with the code here may have to be resized to match what you see in the book.
+
+## Warnings and messages
+Some warning messages are produced by R if cases are missing.  This is usually not important, but it can be helpful to be reminded that not all cases are displayed in a plot.
+
+R packages sometimes add messages making explicit features which have been used implicitly.  Examples include listing which variables have been used to merge files and what smoothing function has been applied. 
+
+## Qualification
+The code is provided to enable others to reproduce the graphics or, even better, to help them to produce their own versions.  Users should note what it says in Chapter 1: "There is no claim that the R code accompanying the book is to be recommended, but it may be helpful."
