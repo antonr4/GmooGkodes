@@ -78,7 +78,7 @@ fpx / fpy
 
 
 ## Fig 33.3 'Median times for men and women for "up" (orange) and "down" (black) races
-## of the Comrades Marathon since 1980'
+## of the Comrades Marathon since 1980 and the numbers finishing'
 ## See Fig 21.8
 
 CM12 + plot_layout(heights = c(1.2, 0.4))
